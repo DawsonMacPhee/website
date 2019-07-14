@@ -13,7 +13,7 @@ hr{
     border-color: rgb(146, 40, 40);
 }
 
-@media only screen and (max-width : 750px) {
+@media only screen and (max-width : 747px) {
     .title{
 
         text-align:center;
@@ -32,7 +32,7 @@ hr{
     .topText{
     
         font-family: 'Permanent Marker', cursive;
-        font-size: 60px;
+        font-size: 70px;
         line-height: 70px;
         padding-top: 0%;
     
@@ -76,7 +76,7 @@ hr{
     }
 }
 
-@media only screen and (min-width: 750px){
+@media only screen and (min-width: 748px){
     .title{
 
         text-align:center;
