@@ -13,189 +13,83 @@ hr{
     border-color: rgb(146, 40, 40);
 }
 
-@media only screen and (max-width : 747px) {
-    .title{
+@media only screen and (max-width : 500px) {
 
-        text-align:center;
-    
+    .topImage{
+
+        width: 30%;
+        margin-left: 35%;
+
     }
+
+    .topText{
+
+        font-family: permanent marker;
+        text-align: center;
+        font-size: 50px;
+        line-height: 0px;
+
+    }
+
+}
+
+@media only screen and (min-width : 501px) {
+
+    .topImage{
+
+        width: 30%;
+        margin-left: 35%;
+
+    }
+
+    .topText{
+
+        font-family: permanent marker;
+        text-align: center;
+        font-size: 50px;
+        line-height: 0px;
+
+    }
+
+}
+
+@media only screen and (min-width : 700px) {
 
     .topImage{
 
         width: 25%;
-        float:left;
-        margin-left: 5%;
-        margin-top: 3%;
-    
+        margin-left: 37.5%;
+
     }
-    
+
     .topText{
-    
-        font-family: 'Permanent Marker', cursive;
-        font-size: 70px;
-        line-height: 70px;
-        padding-top: 0%;
-    
-    }
 
-    .bar{
-        margin-top: 10%;
-    }
-
-    .nav{
-
+        font-family: permanent marker;
         text-align: center;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        
-    }
-
-    #button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        margin-right: 10%;
-        font-family: body;
-        font-size: 24px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        font-size: 70px;
+        line-height: 0px;
 
     }
 
-    #button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-family: body;
-        font-size: 24px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-    }
 }
 
-@media only screen and (min-width: 748px){
-    .title{
-
-        text-align:center;
-    
-    }
+@media only screen and (min-width : 900px) {
 
     .topImage{
 
         width: 20%;
-        float:left;
-        margin-left: 5%;
-    
+        margin-left: 40%;
+        margin-top: 2%;
+
     }
-    
+
     .topText{
-    
-        font-family: 'Permanent Marker', cursive;
-        font-size: 60px;
-        line-height: 70px;
-        padding-top: 6%;
-    
-    }
 
-    .bar{
-        margin-top: 10%;
-    }
-
-    .nav{
-
+        font-family: permanent marker;
         text-align: center;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        
-    }
-
-    #button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        margin-right: 10%;
-        font-family: body;
-        font-size: 24px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        font-size: 90px;
+        line-height: 0px;
 
     }
 
-    #button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-family: body;
-        font-size: 24px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-
-    }
-}
-
-@media screen and (min-width : 1100px) {
-    .title{
-
-        text-align:center;
-    
-    }
-
-    .topImage{
-
-        width: 18%;
-        float:left;
-        margin-left: 10%;
-    
-    }
-    
-    .topText{
-    
-        font-family: 'Permanent Marker', cursive;
-        font-size: 80px;
-        line-height: 90px;
-        padding-top: 5%
-    
-    }
-
-    .bar{
-        margin-top: 10%;
-    }
-
-    .nav{
-
-        text-align: center;
-        margin-top: 1%;
-        margin-bottom: 1%;
-        
-    }
-
-    #button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        margin-right: 10%;
-        font-family: body;
-        font-size: 30px;
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-
-    }
-
-    #button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-family: body;
-        font-size: 30px;
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-
-    }
 }
