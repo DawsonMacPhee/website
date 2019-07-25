@@ -13,12 +13,22 @@ hr{
     border-color: rgb(146, 40, 40);
 }
 
+.main{
+        
+    background-image: url(bimage/mback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(146, 40, 40);
+    
+}
+
 @media only screen and (max-width : 500px) {
 
     .topImage{
 
         width: 30%;
         margin-left: 35%;
+        margin-top: 2%;
 
     }
 
@@ -27,7 +37,69 @@ hr{
         font-family: permanent marker;
         text-align: center;
         font-size: 50px;
-        line-height: 0px;
+        line-height: 90px;
+        color: white;
+        margin-bottom: 0px;
+        padding-bottom: 2%;
+        margin-top: 0px;
+        padding-top: 2%;
+
+    }
+
+    .title{
+        background-image: url(bimage/background.jpg);
+        background-size: cover;
+    }
+
+    #button1{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 21px;
+        margin-right: 2%;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    #button2{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 21px;
+        margin-left: 2%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    .bar{
+
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+    }
+
+    p{
+
+        text-indent: 2em;
+        font-family: body;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .subtitle{
+
+        font-family: permanent marker;
+        font-size: 34px;
+        margin-left: 10px;
 
     }
 
@@ -39,6 +111,7 @@ hr{
 
         width: 30%;
         margin-left: 35%;
+        margin-top: 2%;
 
     }
 
@@ -47,7 +120,69 @@ hr{
         font-family: permanent marker;
         text-align: center;
         font-size: 50px;
-        line-height: 0px;
+        line-height: 90px;
+        color: white;
+        margin-bottom: 0px;
+        padding-bottom: 2%;
+        margin-top: 0px;
+        padding-top: 2%;
+
+    }
+
+    .title{
+        background-image: url(bimage/background.jpg);
+        background-size: cover;
+    }
+
+    #button1{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 22px;
+        margin-right: 2%;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    #button2{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 22px;
+        margin-left: 2%;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    .bar{
+
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+    }
+
+    p{
+
+        text-indent: 2em;
+        font-family: body;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .subtitle{
+
+        font-family: permanent marker;
+        font-size: 34px;
+        margin-left: 10px;
 
     }
 
@@ -59,6 +194,7 @@ hr{
 
         width: 25%;
         margin-left: 37.5%;
+        margin-top: 2%;
 
     }
 
@@ -67,7 +203,69 @@ hr{
         font-family: permanent marker;
         text-align: center;
         font-size: 70px;
-        line-height: 0px;
+        line-height: 90px;
+        color: white;
+        margin-bottom: 0px;
+        padding-bottom: 2%;
+        margin-top: 0px;
+        padding-top: 2%;
+
+    }
+
+    .title{
+        background-image: url(bimage/background.jpg);
+        background-size: cover;
+    }
+
+    #button1{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 23px;
+        margin-right: 2%;
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    #button2{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 23px;
+        margin-left: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    .bar{
+
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+    }
+
+    p{
+
+        text-indent: 2em;
+        font-family: body;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .subtitle{
+
+        font-family: permanent marker;
+        font-size: 34px;
+        margin-left: 10px;
 
     }
 
@@ -88,7 +286,69 @@ hr{
         font-family: permanent marker;
         text-align: center;
         font-size: 90px;
-        line-height: 0px;
+        line-height: 90px;
+        color: white;
+        margin-bottom: 0px;
+        padding-bottom: 2%;
+        margin-top: 0px;
+        padding-top: 2%;
+
+    }
+
+    .title{
+        background-image: url(bimage/background.jpg);
+        background-size: cover;
+    }
+
+    #button1{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 24px;
+        margin-right: 2%;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    #button2{
+
+        border: 2px rgb(146, 40, 40) solid;
+        font-size: 24px;
+        margin-left: 2%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: body;
+
+    }
+
+    .bar{
+
+        text-align: center;
+        margin-top: 2px;
+        margin-bottom: 2px;
+
+    }
+
+    p{
+
+        text-indent: 2em;
+        font-family: body;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+
+    .subtitle{
+
+        font-family: permanent marker;
+        font-size: 34px;
+        margin-left: 10px;
 
     }
 
