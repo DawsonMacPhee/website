@@ -51,7 +51,12 @@ hr{
         background-size: cover;
     }
 
-    #button1{
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button1{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 21px;
@@ -64,7 +69,11 @@ hr{
 
     }
 
-    #button2{
+    .button1:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
+    .button2{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 21px;
@@ -77,11 +86,13 @@ hr{
 
     }
 
+    .button2:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
     .bar{
 
         text-align: center;
-        margin-top: 2px;
-        margin-bottom: 2px;
 
     }
 
@@ -100,6 +111,72 @@ hr{
         font-family: permanent marker;
         font-size: 34px;
         margin-left: 10px;
+
+    }
+
+    .table{
+
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 6%;
+
+    }
+
+    .tablehead{
+        
+        font-family: permanent marker;
+        font-size: 30px;
+
+    }
+
+    .tablebody{
+
+        font-family: body;
+        font-size: 20px;
+
+    }
+
+    .Jtableimage{
+
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    .Ctableimage{
+
+        width: 70%;
+        padding:0px;
+        margin: 0px;
+
+    }
+
+    .Ptableimage{
+
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+
+    }
+
+    .Htableimage{
+
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    th, td{
+
+        border-bottom: 1px rgb(146, 40, 40) solid;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
 
     }
 
@@ -134,7 +211,12 @@ hr{
         background-size: cover;
     }
 
-    #button1{
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button1{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 22px;
@@ -147,7 +229,11 @@ hr{
 
     }
 
-    #button2{
+    .button1:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
+    .button2{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 22px;
@@ -160,11 +246,13 @@ hr{
 
     }
 
+    .button2:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
     .bar{
 
         text-align: center;
-        margin-top: 2px;
-        margin-bottom: 2px;
 
     }
 
@@ -183,6 +271,72 @@ hr{
         font-family: permanent marker;
         font-size: 34px;
         margin-left: 10px;
+
+    }
+
+    .table{
+
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 6%;
+
+    }
+
+    .tablehead{
+        
+        font-family: permanent marker;
+        font-size: 30px;
+
+    }
+
+    .tablebody{
+
+        font-family: body;
+        font-size: 20px;
+
+    }
+
+    .Jtableimage{
+
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    .Ctableimage{
+
+        width: 70%;
+        padding:0px;
+        margin: 0px;
+
+    }
+
+    .Ptableimage{
+
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+
+    }
+
+    .Htableimage{
+
+        width: 90%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    th, td{
+
+        border-bottom: 1px rgb(146, 40, 40) solid;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
 
     }
 
@@ -217,7 +371,12 @@ hr{
         background-size: cover;
     }
 
-    #button1{
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button1{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 23px;
@@ -230,7 +389,11 @@ hr{
 
     }
 
-    #button2{
+    .button1:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
+    .button2{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 23px;
@@ -243,11 +406,13 @@ hr{
 
     }
 
+    .button2:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
     .bar{
 
         text-align: center;
-        margin-top: 2px;
-        margin-bottom: 2px;
 
     }
 
@@ -266,6 +431,72 @@ hr{
         font-family: permanent marker;
         font-size: 34px;
         margin-left: 10px;
+
+    }
+
+    .table{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    .tablehead{
+        
+        font-family: permanent marker;
+        font-size: 30px;
+
+    }
+
+    .tablebody{
+
+        font-family: body;
+        font-size: 20px;
+
+    }
+
+    .Jtableimage{
+
+        width: 70%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    .Ctableimage{
+
+        width: 50%;
+        padding:0px;
+        margin: 0px;
+
+    }
+
+    .Ptableimage{
+
+        width: 80%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+
+    }
+
+    .Htableimage{
+
+        width: 70%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    th, td{
+
+        border-bottom: 1px rgb(146, 40, 40) solid;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
 
     }
 
@@ -300,7 +531,12 @@ hr{
         background-size: cover;
     }
 
-    #button1{
+    hr{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .button1{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 24px;
@@ -313,7 +549,11 @@ hr{
 
     }
 
-    #button2{
+    .button1:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
+    .button2{
 
         border: 2px rgb(146, 40, 40) solid;
         font-size: 24px;
@@ -326,11 +566,13 @@ hr{
 
     }
 
+    .button2:hover{
+        border: 2px rgb(255, 109, 109) solid;
+    }
+
     .bar{
 
         text-align: center;
-        margin-top: 2px;
-        margin-bottom: 2px;
 
     }
 
@@ -349,6 +591,72 @@ hr{
         font-family: permanent marker;
         font-size: 34px;
         margin-left: 10px;
+
+    }
+
+    .table{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+
+    }
+
+    .tablehead{
+        
+        font-family: permanent marker;
+        font-size: 30px;
+
+    }
+
+    .tablebody{
+
+        font-family: body;
+        font-size: 20px;
+
+    }
+
+    .Jtableimage{
+
+        width: 50%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    .Ctableimage{
+
+        width: 30%;
+        padding:0px;
+        margin: 0px;
+
+    }
+
+    .Ptableimage{
+
+        width: 60%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+
+    }
+
+    .Htableimage{
+
+        width: 50%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0px;
+
+    }
+
+    th, td{
+
+        border-bottom: 1px rgb(146, 40, 40) solid;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
 
     }
 
