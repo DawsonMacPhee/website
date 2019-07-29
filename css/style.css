@@ -103,6 +103,7 @@ hr{
         font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        line-height: 30px;
 
     }
 
@@ -116,8 +117,8 @@ hr{
 
     .table{
 
-        margin-left: 6%;
-        margin-right: 6%;
+        margin-left: 0%;
+        margin-right: 0%;
         margin-bottom: 6%;
 
     }
@@ -171,7 +172,7 @@ hr{
 
     }
 
-    th, td{
+    .ex{
 
         border-bottom: 1px rgb(146, 40, 40) solid;
         padding: 10px;
@@ -263,6 +264,7 @@ hr{
         font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        line-height: 30px;
 
     }
 
@@ -276,8 +278,8 @@ hr{
 
     .table{
 
-        margin-left: 6%;
-        margin-right: 6%;
+        margin-left: 0;
+        margin-right: 0;
         margin-bottom: 6%;
 
     }
@@ -331,12 +333,27 @@ hr{
 
     }
 
-    th, td{
+    .ex{
 
         border-bottom: 1px rgb(146, 40, 40) solid;
         padding: 10px;
         margin: 0;
         text-align: center;
+
+    }
+
+    .ide{
+        
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+
+    .Nicon{
+
+        width: 100%;
 
     }
 
@@ -423,6 +440,7 @@ hr{
         font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        line-height: 30px;
 
     }
 
@@ -438,7 +456,7 @@ hr{
 
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
 
     }
 
@@ -491,12 +509,27 @@ hr{
 
     }
 
-    th, td{
+    .ex{
 
         border-bottom: 1px rgb(146, 40, 40) solid;
         padding: 10px;
         margin: 0;
         text-align: center;
+
+    }
+
+    .ide{
+        
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+
+    .Nicon{
+
+        width: 100%;
 
     }
 
@@ -583,6 +616,7 @@ hr{
         font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        line-height: 30px;
 
     }
 
@@ -598,7 +632,7 @@ hr{
 
         margin-left: 10%;
         margin-right: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
 
     }
 
@@ -651,12 +685,27 @@ hr{
 
     }
 
-    th, td{
+    .ex{
 
         border-bottom: 1px rgb(146, 40, 40) solid;
         padding: 10px;
         margin: 0;
         text-align: center;
+
+    }
+
+    .ide{
+        
+        margin-left: 40%;
+        margin-right: 40%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+
+    .Nicon{
+
+        width: 100%;
 
     }
 
