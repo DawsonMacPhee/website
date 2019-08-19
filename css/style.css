@@ -123,21 +123,21 @@ hr{
 
     }
 
-    .tablehead{
+    .tableHead{
         
         font-family: permanent marker;
         font-size: 30px;
 
     }
 
-    .tablebody{
+    .tableBody{
 
         font-family: body;
         font-size: 20px;
 
     }
 
-    .Jtableimage{
+    .jTableImage{
 
         width: 90%;
         padding-top: 5px;
@@ -146,7 +146,7 @@ hr{
 
     }
 
-    .Ctableimage{
+    .cTableImage{
 
         width: 70%;
         padding:0px;
@@ -154,7 +154,7 @@ hr{
 
     }
 
-    .Ptableimage{
+    .pTableImage{
 
         width: 100%;
         padding-top: 20px;
@@ -163,7 +163,7 @@ hr{
 
     }
 
-    .Htableimage{
+    .hTableImage{
 
         width: 90%;
         padding-top: 5px;
@@ -178,6 +178,58 @@ hr{
         padding: 10px;
         margin: 0;
         text-align: center;
+
+    }
+
+    .ide{
+        
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+    }
+
+    .nIcon{
+
+        width: 100%;
+
+    }
+
+    .card{
+
+        color: white;
+        background-color: rgba(82, 73, 73, 0.9);
+        margin-bottom: 2%;
+
+    }
+
+    .cardImage{
+
+        width: 100%;
+
+    }
+
+    .cardTitle{
+
+        font-family: permanent marker;
+        padding-top: 25px;
+        padding-left: 20px;
+
+    }
+
+    .expand{
+
+        padding-bottom: 20px;
+        font-family: body;
+        font-size: 20px;
+        padding-left: 20px;
+
+    }
+
+    .tableCard{
+        
+        padding: 20px;
 
     }
 
@@ -284,21 +336,21 @@ hr{
 
     }
 
-    .tablehead{
+    .tableHead{
         
         font-family: permanent marker;
         font-size: 30px;
 
     }
 
-    .tablebody{
+    .tableBody{
 
         font-family: body;
         font-size: 20px;
 
     }
 
-    .Jtableimage{
+    .jTableImage{
 
         width: 90%;
         padding-top: 5px;
@@ -307,7 +359,7 @@ hr{
 
     }
 
-    .Ctableimage{
+    .cTableImage{
 
         width: 70%;
         padding:0px;
@@ -315,7 +367,7 @@ hr{
 
     }
 
-    .Ptableimage{
+    .pTableImage{
 
         width: 100%;
         padding-top: 20px;
@@ -324,7 +376,7 @@ hr{
 
     }
 
-    .Htableimage{
+    .hTableImage{
 
         width: 90%;
         padding-top: 5px;
@@ -351,9 +403,46 @@ hr{
 
     }
 
-    .Nicon{
+    .nIcon{
 
         width: 100%;
+
+    }
+
+    .card{
+
+        color: white;
+        background-color: rgba(82, 73, 73, 0.9);
+        margin-bottom: 2%;
+
+    }
+
+    .cardImage{
+
+        width: 100%;
+
+    }
+
+    .cardTitle{
+
+        font-family: permanent marker;
+        padding-top: 25px;
+        padding-left: 20px;
+
+    }
+
+    .expand{
+
+        padding-bottom: 20px;
+        font-family: body;
+        font-size: 20px;
+        padding-left: 20px;
+
+    }
+
+    .tableCard{
+        
+        padding: 20px;
 
     }
 
@@ -460,21 +549,21 @@ hr{
 
     }
 
-    .tablehead{
+    .tableHead{
         
         font-family: permanent marker;
         font-size: 30px;
 
     }
 
-    .tablebody{
+    .tableBody{
 
         font-family: body;
         font-size: 20px;
 
     }
 
-    .Jtableimage{
+    .jTableImage{
 
         width: 70%;
         padding-top: 5px;
@@ -483,7 +572,7 @@ hr{
 
     }
 
-    .Ctableimage{
+    .cTableImage{
 
         width: 50%;
         padding:0px;
@@ -491,7 +580,7 @@ hr{
 
     }
 
-    .Ptableimage{
+    .pTableImage{
 
         width: 80%;
         padding-top: 20px;
@@ -500,7 +589,7 @@ hr{
 
     }
 
-    .Htableimage{
+    .hTableImage{
 
         width: 70%;
         padding-top: 5px;
@@ -527,9 +616,46 @@ hr{
 
     }
 
-    .Nicon{
+    .nIcon{
 
         width: 100%;
+
+    }
+
+    .card{
+
+        color: white;
+        background-color: rgba(82, 73, 73, 0.9);
+        margin-bottom: 0.5%;
+
+    }
+
+    .cardImage{
+
+        width: 100%;
+
+    }
+
+    .cardTitle{
+
+        font-family: permanent marker;
+        padding-top: 25px;
+        padding-left: 20px;
+
+    }
+
+    .expand{
+
+        padding-bottom: 20px;
+        font-family: body;
+        font-size: 20px;
+        padding-left: 20px;
+
+    }
+
+    .tableCard{
+        
+        padding: 20px;
 
     }
 
@@ -636,21 +762,21 @@ hr{
 
     }
 
-    .tablehead{
+    .tableHead{
         
         font-family: permanent marker;
         font-size: 30px;
 
     }
 
-    .tablebody{
+    .tableBody{
 
         font-family: body;
         font-size: 20px;
 
     }
 
-    .Jtableimage{
+    .jTableImage{
 
         width: 50%;
         padding-top: 5px;
@@ -659,7 +785,7 @@ hr{
 
     }
 
-    .Ctableimage{
+    .cTableImage{
 
         width: 30%;
         padding:0px;
@@ -667,7 +793,7 @@ hr{
 
     }
 
-    .Ptableimage{
+    .pTableImage{
 
         width: 60%;
         padding-top: 20px;
@@ -676,7 +802,7 @@ hr{
 
     }
 
-    .Htableimage{
+    .hTableImage{
 
         width: 50%;
         padding-top: 5px;
@@ -703,9 +829,46 @@ hr{
 
     }
 
-    .Nicon{
+    .nIcon{
 
         width: 100%;
+
+    }
+
+    .card{
+
+        color: white;
+        background-color: rgba(82, 73, 73, 0.9);
+        margin-bottom: 0.5%;
+
+    }
+
+    .cardImage{
+
+        width: 100%;
+
+    }
+
+    .cardTitle{
+
+        font-family: permanent marker;
+        padding-top: 25px;
+        padding-left: 20px;
+
+    }
+
+    .expand{
+
+        padding-bottom: 20px;
+        font-family: body;
+        font-size: 20px;
+        padding-left: 20px;
+
+    }
+
+    .tableCard{
+        
+        padding: 20px;
 
     }
 
