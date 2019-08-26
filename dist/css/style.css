@@ -233,6 +233,10 @@ hr{
 
     }
 
+    .link{
+        margin: auto;
+    }
+
 }
 
 @media only screen and (min-width : 501px) {
@@ -444,6 +448,10 @@ hr{
         
         padding: 20px;
 
+    }
+
+    .link{
+        margin: auto;
     }
 
 }
@@ -659,6 +667,10 @@ hr{
 
     }
 
+    .link{
+        margin: auto;
+    }
+
 }
 
 @media only screen and (min-width : 900px) {
@@ -870,6 +882,10 @@ hr{
         
         padding: 20px;
 
+    }
+
+    .link{
+        margin: auto;
     }
 
 }
