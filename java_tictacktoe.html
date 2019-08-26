@@ -57,18 +57,8 @@
                                 <p style="padding-left: 20px;">The Python Handbook is the exact same as The Java Handbook, but is built in Python,
                                     to be used during Python coding. I find it very nice to have programs like this that give me quick refreshers on 
                                     syntax and modules. The Python Handbook is still in it's infancy stages and is fairly new. I begun working on it
-                                    in 2017, and there is still alot more to add as I become more comfortable with the Python Language.</p>
-
-                                <p style="padding-left: 20px;">The Python Handbook is coded in Python, using primarily the Tkinter module, with a
-                                    little of the extended ttk module worked in. When Python was a fairly new language to me, I started by learning basic
-                                    syntax, then immediatly begun the process of creating the handbook to log my progress. The version included below
-                                    is new and refreshed as of August 2019. I restarted from scratch
-                                    after realising that I could restructure the original to make it easier to read and maintain. Currently, the only inlcuded 
-                                    modules are Tkinter and layout managing information, however I'm working to add other commonly used modules, such as Raspberry Pi GPIO 
-                                    and Socket Servers.
-                                </p>
-                                <a href="projects#python"><h2 class="expand">Read Less</h2></a>
-                            </td>
+                                    in August 2019, and there is still alot more to add as I become more comfortable with the Python Language.</p>
+                                <a href="python_handbook#python"><h2 class="expand">Read More</h2></a></td>
                         </tr>  
                     </tbody>  
                 </table>    
@@ -104,10 +94,23 @@
                             <td><img src = "images/HTML+CSS_Design.jpg" class="cardImage"></td>
                             <td><h1 class="cardTitle">LAN TicTackToe</h1>
                                 <p style="padding-left: 20px;">LAN TicTackToe is a minigame I created in Java, that features multiplayer hosting and connecting via
-                                    the Java Socket Server class. This program was my first dive into simple networking. The app allows the user to host a game or connect 
-                                    to one as a client over a Local Area Network. After opening a socket with which to communicate, the client and host will essentially
-                                    send and receive messeages that dictate every move made on the gameboard. Once someone wins, the entire board is reset for rematches.</p>
-                                <a href="java_tictacktoe#tictacktoe"><h2 class="expand">Read More</h2></a></td>
+                                the Java Socket Server class. This program was my first dive into simple networking. The app allows the user to host a game or connect 
+                                to one as a client over a Local Area Network. After opening a socket with which to communicate, the client and host will essentially
+                                send and receive messeages that dictate every move made on the gameboard. Once someone wins, the entire board is reset for rematches.
+                                </p>
+
+                                <p style="padding-left: 20px;">This app is mainly built using the JSwing and ServerSocket classes. JSwing displays the 
+                                    visiual GUI components, while the socket server communicates information between host and client. A gameloop manages the updating
+                                    of the JSwing components, while the servers are handled by threading for efficiency. The communication between host and client is 
+                                    handled exactly as though this were an instant messaging app. Whenever a player places an x or an o, a message is sent to the opponent
+                                    that tells them what square was selected. Whenever a new x or o is placed, the game checks for a winner by comparing what is written
+                                    on each square.
+                                </p>
+                                <a href="downloads/TicTackToe.jar" download>
+                                    <label class="button2">Download LAN TicTackToe</label>
+                                </a>
+                                <a href="projects#tictacktoe"><h2 class="expand">Read Less</h2></a>
+                            </td>
                         </tr>  
                     </tbody>  
                 </table>    
