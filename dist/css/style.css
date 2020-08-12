@@ -22,99 +22,149 @@ hr{
     
 }
 
+.topImage{
+
+    width: 100%;
+
+}
+
+hr{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.button1{
+
+    border-left: 2px rgb(146, 40, 40) solid;
+    border-right: 2px rgb(146, 40, 40) solid;
+    font-size: 30px;
+    margin-right: 1%;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: body;
+
+}
+
+.button1:hover{
+    border: 2px rgb(255, 109, 109) solid;
+}
+
+.button2{
+
+    border-left: 2px rgb(146, 40, 40) solid;
+    border-right: 2px rgb(146, 40, 40) solid;
+    font-size: 30px;
+    margin-left: 1%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: body;
+
+}
+
+.button2:hover{
+    border: 2px rgb(255, 109, 109) solid;
+}
+
+.bar{
+
+    text-align: center;
+
+}
+
+p{
+
+    text-indent: 2em;
+    font-family: body;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+
+}
+
+.subtitle{
+
+    font-family: permanent marker;
+    font-size: 34px;
+    margin-left: 10px;
+
+}
+
+.tableHead{
+        
+    font-family: permanent marker;
+    font-size: 30px;
+
+}
+
+.tableBody{
+
+    font-family: body;
+    font-size: 20px;
+
+}
+
+.ex{
+
+    border-bottom: 1px rgb(146, 40, 40) solid;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+
+}
+
+.nIcon{
+
+    width: 100%;
+
+}
+
+.card{
+
+    color: white;
+    background-color: rgba(82, 73, 73, 0.9);
+    margin-bottom: 0.5%;
+
+}
+
+.cardImage{
+
+    width: 100%;
+
+}
+
+.cardTitle{
+
+    font-family: permanent marker;
+    padding-top: 25px;
+    padding-left: 20px;
+
+}
+
+.expand{
+
+    padding-bottom: 20px;
+    font-family: body;
+    font-size: 20px;
+    padding-left: 20px;
+
+}
+
+.tableCard{
+        
+    padding: 20px;
+
+}
+
+.link{
+    margin: auto;
+}
+
 @media only screen and (max-width : 500px) {
-
-    .topImage{
-
-        width: 30%;
-        margin-left: 35%;
-        margin-top: 2%;
-
-    }
-
-    .topText{
-
-        font-family: permanent marker;
-        text-align: center;
-        font-size: 50px;
-        line-height: 90px;
-        color: white;
-        margin-bottom: 0px;
-        padding-bottom: 2%;
-        margin-top: 0px;
-        padding-top: 2%;
-
-    }
-
-    .title{
-        background-image: url(bimage/background.jpg);
-        background-size: cover;
-    }
-
-    hr{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 21px;
-        margin-right: 2%;
-        padding-left: 12px;
-        padding-right: 12px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button1:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 21px;
-        margin-left: 2%;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button2:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .bar{
-
-        text-align: center;
-
-    }
-
-    p{
-
-        text-indent: 2em;
-        font-family: body;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        line-height: 30px;
-
-    }
-
-    .subtitle{
-
-        font-family: permanent marker;
-        font-size: 34px;
-        margin-left: 10px;
-
-    }
-
     .table{
 
         margin-left: 0%;
@@ -123,20 +173,6 @@ hr{
 
     }
 
-    .tableHead{
-        
-        font-family: permanent marker;
-        font-size: 30px;
-
-    }
-
-    .tableBody{
-
-        font-family: body;
-        font-size: 20px;
-
-    }
-
     .jTableImage{
 
         width: 90%;
@@ -146,7 +182,7 @@ hr{
 
     }
 
-    .cTableImage{
+    .csTableImage{
 
         width: 70%;
         padding:0px;
@@ -172,13 +208,12 @@ hr{
 
     }
 
-    .ex{
-
-        border-bottom: 1px rgb(146, 40, 40) solid;
-        padding: 10px;
-        margin: 0;
-        text-align: center;
-
+    .cTableImage{
+    
+        width: 75%;
+        padding:0px;
+        margin: 0px;
+    
     }
 
     .ide{
@@ -189,149 +224,9 @@ hr{
         margin-bottom: 2%;
 
     }
-
-    .nIcon{
-
-        width: 100%;
-
-    }
-
-    .card{
-
-        color: white;
-        background-color: rgba(82, 73, 73, 0.9);
-        margin-bottom: 2%;
-
-    }
-
-    .cardImage{
-
-        width: 100%;
-
-    }
-
-    .cardTitle{
-
-        font-family: permanent marker;
-        padding-top: 25px;
-        padding-left: 20px;
-
-    }
-
-    .expand{
-
-        padding-bottom: 20px;
-        font-family: body;
-        font-size: 20px;
-        padding-left: 20px;
-
-    }
-
-    .tableCard{
-        
-        padding: 20px;
-
-    }
-
-    .link{
-        margin: auto;
-    }
-
 }
 
 @media only screen and (min-width : 501px) {
-
-    .topImage{
-
-        width: 30%;
-        margin-left: 35%;
-        margin-top: 2%;
-
-    }
-
-    .topText{
-
-        font-family: permanent marker;
-        text-align: center;
-        font-size: 50px;
-        line-height: 90px;
-        color: white;
-        margin-bottom: 0px;
-        padding-bottom: 2%;
-        margin-top: 0px;
-        padding-top: 2%;
-
-    }
-
-    .title{
-        background-image: url(bimage/background.jpg);
-        background-size: cover;
-    }
-
-    hr{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 22px;
-        margin-right: 2%;
-        padding-left: 12px;
-        padding-right: 12px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button1:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 22px;
-        margin-left: 2%;
-        padding-left: 5px;
-        padding-right: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button2:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .bar{
-
-        text-align: center;
-
-    }
-
-    p{
-
-        text-indent: 2em;
-        font-family: body;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        line-height: 30px;
-
-    }
-
-    .subtitle{
-
-        font-family: permanent marker;
-        font-size: 34px;
-        margin-left: 10px;
-
-    }
-
     .table{
 
         margin-left: 0;
@@ -340,20 +235,6 @@ hr{
 
     }
 
-    .tableHead{
-        
-        font-family: permanent marker;
-        font-size: 30px;
-
-    }
-
-    .tableBody{
-
-        font-family: body;
-        font-size: 20px;
-
-    }
-
     .jTableImage{
 
         width: 90%;
@@ -363,7 +244,7 @@ hr{
 
     }
 
-    .cTableImage{
+    .csTableImage{
 
         width: 70%;
         padding:0px;
@@ -389,13 +270,12 @@ hr{
 
     }
 
-    .ex{
-
-        border-bottom: 1px rgb(146, 40, 40) solid;
-        padding: 10px;
-        margin: 0;
-        text-align: center;
-
+    .cTableImage{
+    
+        width: 75%;
+        padding:0px;
+        margin: 0px;
+    
     }
 
     .ide{
@@ -406,168 +286,14 @@ hr{
         margin-bottom: 2%;
 
     }
-
-    .nIcon{
-
-        width: 100%;
-
-    }
-
-    .card{
-
-        color: white;
-        background-color: rgba(82, 73, 73, 0.9);
-        margin-bottom: 2%;
-
-    }
-
-    .cardImage{
-
-        width: 100%;
-
-    }
-
-    .cardTitle{
-
-        font-family: permanent marker;
-        padding-top: 25px;
-        padding-left: 20px;
-
-    }
-
-    .expand{
-
-        padding-bottom: 20px;
-        font-family: body;
-        font-size: 20px;
-        padding-left: 20px;
-
-    }
-
-    .tableCard{
-        
-        padding: 20px;
-
-    }
-
-    .link{
-        margin: auto;
-    }
-
 }
 
 @media only screen and (min-width : 700px) {
-
-    .topImage{
-
-        width: 25%;
-        margin-left: 37.5%;
-        margin-top: 2%;
-
-    }
-
-    .topText{
-
-        font-family: permanent marker;
-        text-align: center;
-        font-size: 70px;
-        line-height: 90px;
-        color: white;
-        margin-bottom: 0px;
-        padding-bottom: 2%;
-        margin-top: 0px;
-        padding-top: 2%;
-
-    }
-
-    .title{
-        background-image: url(bimage/background.jpg);
-        background-size: cover;
-    }
-
-    hr{
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 23px;
-        margin-right: 2%;
-        padding-left: 17px;
-        padding-right: 17px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button1:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 23px;
-        margin-left: 2%;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button2:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .bar{
-
-        text-align: center;
-
-    }
-
-    p{
-
-        text-indent: 2em;
-        font-family: body;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        line-height: 30px;
-
-    }
-
-    .subtitle{
-
-        font-family: permanent marker;
-        font-size: 34px;
-        margin-left: 10px;
-
-    }
-
     .table{
 
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 5%;
-
-    }
-
-    .tableHead{
-        
-        font-family: permanent marker;
-        font-size: 30px;
-
-    }
-
-    .tableBody{
-
-        font-family: body;
-        font-size: 20px;
 
     }
 
@@ -580,7 +306,7 @@ hr{
 
     }
 
-    .cTableImage{
+    .csTableImage{
 
         width: 50%;
         padding:0px;
@@ -606,13 +332,12 @@ hr{
 
     }
 
-    .ex{
-
-        border-bottom: 1px rgb(146, 40, 40) solid;
-        padding: 10px;
-        margin: 0;
-        text-align: center;
-
+    .cTableImage{
+    
+        width: 55%;
+        padding:0px;
+        margin: 0px;
+    
     }
 
     .ide{
@@ -623,169 +348,15 @@ hr{
         margin-bottom: 2%;
 
     }
-
-    .nIcon{
-
-        width: 100%;
-
-    }
-
-    .card{
-
-        color: white;
-        background-color: rgba(82, 73, 73, 0.9);
-        margin-bottom: 0.5%;
-
-    }
-
-    .cardImage{
-
-        width: 100%;
-
-    }
-
-    .cardTitle{
-
-        font-family: permanent marker;
-        padding-top: 25px;
-        padding-left: 20px;
-
-    }
-
-    .expand{
-
-        padding-bottom: 20px;
-        font-family: body;
-        font-size: 20px;
-        padding-left: 20px;
-
-    }
-
-    .tableCard{
-        
-        padding: 20px;
-
-    }
-
-    .link{
-        margin: auto;
-    }
-
 }
 
 @media only screen and (min-width : 900px) {
-
-    .topImage{
-
-        width: 20%;
-        margin-left: 40%;
-        margin-top: 2%;
-
-    }
-
-    .topText{
-
-        font-family: permanent marker;
-        text-align: center;
-        font-size: 90px;
-        line-height: 90px;
-        color: white;
-        margin-bottom: 0px;
-        padding-bottom: 2%;
-        margin-top: 0px;
-        padding-top: 2%;
-
-    }
-
-    .title{
-        background-image: url(bimage/background.jpg);
-        background-size: cover;
-    }
-
-    hr{
-        margin-top: 12px;
-        margin-bottom: 12px;
-    }
-
-    .button1{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 24px;
-        margin-right: 2%;
-        padding-left: 22px;
-        padding-right: 22px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button1:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .button2{
-
-        border: 2px rgb(146, 40, 40) solid;
-        font-size: 24px;
-        margin-left: 2%;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        font-family: body;
-
-    }
-
-    .button2:hover{
-        border: 2px rgb(255, 109, 109) solid;
-    }
-
-    .bar{
-
-        text-align: center;
-
-    }
-
-    p{
-
-        text-indent: 2em;
-        font-family: body;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-right: 10px;
-        line-height: 30px;
-
-    }
-
-    .subtitle{
-
-        font-family: permanent marker;
-        font-size: 34px;
-        margin-left: 10px;
-
-    }
-
     .table{
 
         margin-left: 10%;
         margin-right: 10%;
         margin-bottom: 5%;
-
-    }
-
-    .tableHead{
-        
-        font-family: permanent marker;
-        font-size: 30px;
-
-    }
-
-    .tableBody{
-
-        font-family: body;
-        font-size: 20px;
-
+    
     }
 
     .jTableImage{
@@ -794,42 +365,41 @@ hr{
         padding-top: 5px;
         padding-bottom: 5px;
         margin: 0px;
-
+    
     }
-
-    .cTableImage{
-
+    
+    .csTableImage{
+    
         width: 30%;
         padding:0px;
         margin: 0px;
-
+    
     }
-
+    
     .pTableImage{
-
+    
         width: 60%;
         padding-top: 20px;
         padding-bottom: 20px;
         margin: 0px;
-
+    
     }
-
+    
     .hTableImage{
-
+    
         width: 50%;
         padding-top: 5px;
         padding-bottom: 5px;
         margin: 0px;
-
+    
     }
-
-    .ex{
-
-        border-bottom: 1px rgb(146, 40, 40) solid;
-        padding: 10px;
-        margin: 0;
-        text-align: center;
-
+    
+    .cTableImage{
+    
+        width: 35%;
+        padding:0px;
+        margin: 0px;
+    
     }
 
     .ide{
@@ -838,54 +408,6 @@ hr{
         margin-right: 40%;
         margin-top: 2%;
         margin-bottom: 2%;
-
+    
     }
-
-    .nIcon{
-
-        width: 100%;
-
-    }
-
-    .card{
-
-        color: white;
-        background-color: rgba(82, 73, 73, 0.9);
-        margin-bottom: 0.5%;
-
-    }
-
-    .cardImage{
-
-        width: 100%;
-
-    }
-
-    .cardTitle{
-
-        font-family: permanent marker;
-        padding-top: 25px;
-        padding-left: 20px;
-
-    }
-
-    .expand{
-
-        padding-bottom: 20px;
-        font-family: body;
-        font-size: 20px;
-        padding-left: 20px;
-
-    }
-
-    .tableCard{
-        
-        padding: 20px;
-
-    }
-
-    .link{
-        margin: auto;
-    }
-
 }
