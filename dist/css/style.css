@@ -147,11 +147,23 @@ p{
 
 .expand{
 
-    padding-bottom: 20px;
+    border-left: 2px rgb(146, 40, 40) solid;
+    border-right: 2px rgb(146, 40, 40) solid;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     font-family: body;
     font-size: 20px;
-    padding-left: 20px;
+    text-align: center;
 
+}
+
+.expand:hover{
+    border: 2px rgb(255, 109, 109) solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .tableCard{
@@ -161,7 +173,22 @@ p{
 }
 
 .link{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pLink{
+    border-left: 2px rgb(146, 40, 40) solid;
+    border-right: 2px rgb(146, 40, 40) solid;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.pLink:hover{
+    border: 2px rgb(255, 109, 109) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width : 500px) {
