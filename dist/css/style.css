@@ -176,6 +176,28 @@ p{
     padding-top: 10px;
 }
 
+.downloadButton{
+
+    border-left: 2px rgb(146, 40, 40) solid;
+    border-right: 2px rgb(146, 40, 40) solid;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: body;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.downloadButton:hover{
+    border: 2px rgb(255, 109, 109) solid;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 .tableCard{
         
     padding: 20px;
