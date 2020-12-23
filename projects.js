@@ -7,8 +7,10 @@ for(i = 0; i < cards.length; i++) {
         var content = this.previousElementSibling;
         if (content.style.maxHeight) {
             content.style.maxHeight = null;
+            this.innerHTML = "Read More";
         } else {
             content.style.maxHeight = content.scrollHeight + "px";
+            this.innerHTML = "Read Less";
         }
     });
 }
