@@ -125,9 +125,18 @@ p{
 
 .card{
 
+    border-radius: 25px;
     color: white;
     background-color: rgba(82, 73, 73, 0.9);
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
+
+}
+
+.expandCard{
+
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
 
 }
 
@@ -157,6 +166,7 @@ p{
     font-family: body;
     font-size: 20px;
     text-align: center;
+    cursor: pointer;
 
 }
 
